@@ -1,12 +1,7 @@
-
 // Ejercicio 30
 
-let Namee= "Marcos"
-
-function sayHelloName () {
-
-    console.log("Hola", Namee, "!!!")
-    
+function sayHelloName(nombre) {
+  console.log("Hola" + nombre);
 }
 
-sayHelloName();
+sayHelloName("Marcos");
