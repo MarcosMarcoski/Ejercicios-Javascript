@@ -1,6 +1,5 @@
 
 // Ejercicio 33
 
-const add = (a, b) => a + b;
-
-console.log(add(5, 5));
+const sum = () => 5 + 5;
+console.log(sum());
