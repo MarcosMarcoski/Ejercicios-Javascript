@@ -6,7 +6,6 @@ const students = [
   { id: 3, name: "Giovanni", surname: "Brambilla", age: 30 },
 ];
 
-
 for (const student of students) {
-  console.log(student);
-}
+    console.log(student);
+  }
