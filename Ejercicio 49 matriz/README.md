@@ -1,10 +1,14 @@
-# Exercise 48
+# Exercise 49
 
-Create an array called `students`. This array must have 3 objects literals with the following properties:
+Given the following array:
 
-- id
-- name
-- surname
-- age
+const students = [
+{ id: 1, name: "Luca", surname: "Rossi", age: 20 },
+{ id: 2, name: "Mario", surname: "Bianchi", age: 24 },
+{ id: 3, name: "Giovanni", surname: "Brambilla", age: 30 },
+];
 
-Print the first element of the array.
+Print all the elements of the array.
+
+**Suggestion**
+Use a for loop.

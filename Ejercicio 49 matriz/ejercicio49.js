@@ -1,26 +1,12 @@
-
 // Ejercicio 49
 
 const students = [
-    {
-      identificacion: 1,
-      nombre: "Juan",
-      apellido: "Perez",
-      edad: 25,
-    },
-    {
-      identificacion: 2,
-      nombre: "María",
-      apellido: "González",
-      edad: 22,
-    },
-    {
-      identificacion: 3,
-      nombre: "Pedro",
-      apellido: "López",
-      edad: 28,
-    },
-  ];
-  
-  console.log(students[0]);
-  
+  { id: 1, name: "Luca", surname: "Rossi", age: 20 },
+  { id: 2, name: "Mario", surname: "Bianchi", age: 24 },
+  { id: 3, name: "Giovanni", surname: "Brambilla", age: 30 },
+];
+
+
+for (const student of students) {
+  console.log(student);
+}
